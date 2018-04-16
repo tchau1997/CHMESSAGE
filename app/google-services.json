@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "780788339343",
+    "firebase_url": "https://chmessage-9f15c.firebaseio.com",
+    "project_id": "chmessage-9f15c",
+    "storage_bucket": "chmessage-9f15c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780788339343:android:6442f3969ef84075",
+        "android_client_info": {
+          "package_name": "com.example.hautc.chmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780788339343-scva0pdsn0g5i7mq06j3tcj2s3fi597u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hautc.chmessage",
+            "certificate_hash": "01a36fe7ecf3e6466c9936a79957f9a60c21c955"
+          }
+        },
+        {
+          "client_id": "780788339343-7bjrhpntiqvrtjg2nqkbl0jiprjborin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQOn3pYAOkCq7YphGmdsq27_QlhKNbaLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780788339343-7bjrhpntiqvrtjg2nqkbl0jiprjborin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.hautc.chmessage.FriendActivity">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/lv_contact"/>
+
+    <!--<com.github.clans.fab.FloatingActionMenu-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:id="@+id/fam_contact"-->
+        <!--fab:menu_labels_textColor="@color/buttonTextColor"-->
+        <!--app:menu_labels_colorNormal="@color/buttonBackground"-->
+        <!--app:menu_colorNormal="@color/buttonBackground"-->
+        <!--app:menu_colorPressed="@color/buttonBackground">-->
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_add_black_24dp"
+            android:id="@+id/fab_addContact"
+            fab:fab_label="@string/addContact"
+            fab:fab_size="normal"
+            app:fab_colorNormal="@color/buttonBackground"
+            app:menu_colorPressed="@color/buttonBackground"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <!--<com.github.clans.fab.FloatingActionButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/ic_create_black_24dp"-->
+            <!--android:id="@+id/fab_newMessage"-->
+            <!--fab:fab_size="mini"-->
+            <!--app:fab_colorNormal="@color/buttonBackground"-->
+            <!--app:menu_colorPressed="@color/buttonBackground"-->
+            <!--app:fab_label="@string/newMessage" />-->
+
+    <!--</com.github.clans.fab.FloatingActionMenu>-->
+</RelativeLayout>

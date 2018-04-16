@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Color scheme for login -->
+    <color name="colorLoginPrimaryDark">#F7B733</color>
+    <color name="colorLoginPrimary">#f4efef</color>
+    <color name="colorLoginAccent">#ffe966</color>
+    <color name="textColorAccent">#000000</color>
+
+    <color name="buttonBackground">#F7B733</color>
+    <color name="buttonTextColor">#000000</color>
+    <color name="green">#90EE90</color>
+    <color name="white">#FFFFFF</color>
+    <color name="receiver_color">#F7B733</color>
+    <color name="sender_color">#7EC0EE</color>
+    <color name="grey">#CCCCCC</color>
+</resources>

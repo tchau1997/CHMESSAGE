@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hautc.chmessage.ChatActivity">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chat_message_display_list"
+        android:dividerHeight="5dp"
+        android:divider="@null"
+        android:layout_above="@+id/test"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <View
+        android:id="@+id/chat_seperator"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorLoginPrimaryDark"
+        android:layout_above="@+id/test"/>
+
+    <LinearLayout
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:paddingTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_style">
+
+            <EditText
+                android:id="@+id/chat_message_input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:hint="@string/enter_your_message_here"
+                android:background="@drawable/edittext_selector"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+        </ScrollView>
+
+        <ImageButton
+            android:id="@+id/chat_message_send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_send_gray_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:layout_alignParentRight="true"/>
+
+    </LinearLayout>
+</RelativeLayout>

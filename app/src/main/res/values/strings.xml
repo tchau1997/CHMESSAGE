@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CHMESSAGE</string>
+    <string name="edtPassword">100dp</string>
+    <string name="Username">Email</string>
+    <string name="tvUsername">Email:</string>
+    <string name="tvPassword">Password:</string>
+    <string name="Password">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="tv_SignUp">Don\'t have account! SIGN UP NOW</string>
+    <string name="addContact">Add Friend</string>
+    <string name="newMessage">New Message</string>
+    <string name="enter_your_message_here">Enter your message here</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="about_app">About app</string>
+    <string name="friend_email">Friend Email: </string>
+    <string name="your_email_here">Your email here</string>
+</resources>
